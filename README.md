@@ -36,7 +36,7 @@ You need:
 ## Install
 
 ```bash
-git clone https://github.com/Rimuren/nord-theme-rmpc.git
+git clone https://github.com/Rimuren/nord-ish-rmpc.git
 ```
 
 Then place the config in your rmpc config directory.
