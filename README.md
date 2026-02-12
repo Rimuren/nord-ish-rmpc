@@ -78,9 +78,10 @@ In my case, it is:
 ---
 
 ## warning
-
+```
 uploaded with zero polish.
 
 if you know, you know.
 if it breaks, you fix it.
 use at your own risk.
+```
