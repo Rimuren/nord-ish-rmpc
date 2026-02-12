@@ -37,8 +37,7 @@ You must have:
 Clone repo:
 
 ```bash
-git clone https://github.com/Rimuren/nord-theme-rmpc/edit/main/nord-ish.git
-cd rmpc-theme
+git clone https://github.com/Rimuren/nord-theme-rmpc.git
 ```
 
 ## Notes
