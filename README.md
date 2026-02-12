@@ -1,16 +1,14 @@
 # 🎧 rmpc Minimal GNOME Theme
 
-Minimal, functional rmpc theme with album art + cava pane.
+Minimal and functional rmpc layout with album art + cava pane.
 Designed for **GNOME + WezTerm** with a cool minimal dark look.
 
 ## Preview
 
-![preview](nord-ish/rmpc_1.png)
+**Layout**
 
-Layout:
-
-* Queue on left
-* Album art on right
+* Queue on the left
+* Album art on the right
 * Cava visualizer under album art
 * Clean header + progress bar
 
@@ -26,32 +24,32 @@ Layout:
 
 ## Requirements
 
-You must have:
+You need:
 
-* `rmpc` + `cava`
+* `rmpc`
+* `mpd`
+* `cava` *(optional but enabled by default)*
+
+> If you don’t want cava, disable it in the `.ron` config.
 
 ---
 
 ## Install
 
-Clone repo:
-
 ```bash
 git clone https://github.com/Rimuren/nord-theme-rmpc.git
 ```
 
-## Notes
+Then place the config in your rmpc config directory.
 
-* This repo only provides **rmpc theme + layout**
-* You must already have MPD configured
-* Cava is required for visualizer pane (if you want it, deactivate it in the .ron files )
-* FIFO must match:
+---
 
-```
-/tmp/mpd.fifo
-```
+## MPD FIFO (for cava)
 
-Make sure your `mpd.conf` contains:
+This is the FIFO setup I personally use.
+Feel free to change the path or settings to match your own MPD configuration.
+
+Make sure your `mpd.conf` includes something like:
 
 ```
 audio_output {
@@ -61,6 +59,23 @@ audio_output {
     format          "44100:16:2"
 }
 ```
+
+The FIFO path in the rmpc config should match whatever you use in MPD.
+In my case, it is:
+
+```
+/tmp/mpd.fifo
+```
+
+---
+
+## Notes
+
+* This repo only provides **rmpc layout + theme**
+* MPD must already be configured
+* Cava is only required if you want the visualizer pane
+
+---
 
 ## warning
 
