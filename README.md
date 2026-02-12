@@ -1,7 +1,6 @@
 # 🎧 rmpc Minimal GNOME Theme
 
 Minimal and functional rmpc layout with album art + cava pane.
-Designed for **GNOME + WezTerm** with a cool minimal dark look.
 
 ## Preview
 
